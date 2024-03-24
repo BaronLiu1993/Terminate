@@ -2,21 +2,27 @@ import React from 'react'
 
 function MC() {
   return (
-    <div className = 'text-white'>
+    <div className = 'text-white flex'>
+      <div className = 'flex flex-col justify-center'>
       <div className = 'flex'>
         <div className = 'font-semibold text-2xl'>
-            Studio Developer
+           1st Place Competitor
         </div>
         <div className = 'mx-5 font-semibold text-2xl text-red-400'>
-        @ Ignition Hacks
+        @ IgnitionHacks
         </div>
       </div>
       <div>
-        January - April 2019
+        August 2023
       </div>
-      <div>
-        - Worked with a team of three designers to build a marketing website and <br /> e-commerce playform for blistablox, an ambitious startup originating <br /> from Northeastern
+      <div className = 'font-nunito'>
+      ▲ Worked with a team of three designers to build an AR education app <br /> that aims to help students learn about physics and science.
       </div>
+      <div className = 'font-nunito'>
+      ▲ Used Tensorflow fingerpose backend and React JS for frontend 
+      </div>
+    </div>
+    <img className = 'h-[20rem] w-[23rem] rounded-md m-20'/>
     </div>
   )
 }

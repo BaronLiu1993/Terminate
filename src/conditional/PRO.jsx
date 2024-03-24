@@ -2,23 +2,27 @@ import React from 'react'
 
 function PRO() {
   return (
-    <div className = 'text-white'>
+  <div className = 'text-white flex'>
+      <div className = 'flex flex-col justify-center'>
       <div className = 'flex'>
         <div className = 'font-semibold text-2xl'>
-            Studio Developer
+            Best Accesibility Hack
         </div>
         <div className = 'mx-5 font-semibold text-2xl text-red-400'>
-        @ Ignition Hacks
+        @ WaffleHacks
         </div>
       </div>
       <div>
-        January - April 2020
+        May 2024
       </div>
-      <div>
-        - Worked with a team of three designers to build a marketing website and <br /> e-commerce playform for blistablox, an ambitious startup originating <br /> from Northeastern
+      <div className = 'font-nunito'>
+      ▲ Developed an AI EMG analysis app using Arduino, Tensorflow, and React JS.
       </div>
+    </div>
+    <img className = 'h-[20rem] w-[23rem] rounded-md m-20'/>
     </div>
   )
 }
 
 export default PRO
+

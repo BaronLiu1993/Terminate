@@ -2,23 +2,28 @@ import React from 'react'
 
 function SC() {
   return (
-    <div className = 'text-white'>
-      <div className = 'flex'>
-        <div className = 'font-semibold text-2xl'>
-            Studio Developer
-        </div>
-        <div className = 'mx-5 font-semibold text-2xl text-red-400'>
-        @ Ignition Hacks
-        </div>
+    <div className = 'text-white flex'>
+    <div className = 'flex flex-col justify-center'>
+    <div className = 'flex'>
+      <div className = 'font-semibold text-2xl'>
+          Best Accesibility Hack
       </div>
-      <div>
-        January - April 2021
-      </div>
-      <div>
-        - Worked with a team of three designers to build a marketing website and <br /> e-commerce playform for blistablox, an ambitious startup originating <br /> from Northeastern
+      <div className = 'mx-5 font-semibold text-2xl text-red-400'>
+      @ WaffleHacks
       </div>
     </div>
+    <div>
+      September 2020 - July 2024
+    </div>
+    <div className = 'font-nunito'>
+    ▲ Worked as the President, Student Advisor and Trainer. Collaborated with others to <br /> run numerous fundraisers, training sessions and Regional and Provincial competitions
+    </div>
+  </div>
+  <img className = 'h-[20rem] w-[23rem] rounded-md m-20'/>
+  </div>
   )
 }
 
 export default SC
+
+
