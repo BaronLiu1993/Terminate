@@ -20,10 +20,13 @@ function MC() {
       ▲ Worked with a team of three designers to build an AR education app <br /> that aims to help students learn about physics and science.
       </div>
       <div className = 'font-nunito'>
+      ▲ Provides interactive lessons for students to increase engagement in STEM
+      </div>
+      <div className = 'font-nunito'>
       ▲ Used Tensorflow fingerpose backend and React JS for frontend 
       </div>
     </div>
-    <img src = {Pic} className = 'h-[20rem] w-[23rem] rounded-md m-20'/>
+    <img src = {Pic} className = 'h-[20rem] w-[20rem] rounded-md m-20'/>
     </div>
   )
 }

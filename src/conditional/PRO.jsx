@@ -17,13 +17,13 @@ function PRO() {
         May 2024
       </div>
       <div className = 'font-nunito'>
-      ▲ Developed an AI EMG analysis app using Arduino, <br /> Tensorflow, and React JS.
+      ▲ Developed an AI EMG analysis app using Arduino, <br /> Tensorflow, and React JS. 
       </div>
       <div className = 'font-nunito'>
       ▲ Used to increase the accessibility of neuropathic treatment
       </div>
     </div>
-    <img src = {Myo} className = 'h-[20rem] w-[23rem] rounded-md m-20'/>
+    <img src = {Myo} className = 'h-[20rem] w-[40rem] rounded-md m-20'/>
     </div>
   )
 }
