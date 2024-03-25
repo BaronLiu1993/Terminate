@@ -4,7 +4,7 @@ function navbar() {
   return (
     <>
       <div className = 'bg-[#101628] flex-col flex items-end'>
-        <ol className = 'flex p-10 justify-end '>
+        <ol className = 'flex p-2ss justify-end '>
           <a href = '#' className = 'm-4 font-semibold underline hover:text-red-400 text-white'>01. Home</a>
           <a href = '#' className = 'm-4 font-semibold underline hover:text-red-400 text-white'>02. Portfolio Projects</a>
           <a href = '#' className = 'm-4 font-semibold underline hover:text-red-400 text-white'>03. About Me!</a>

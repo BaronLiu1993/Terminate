@@ -1,4 +1,5 @@
 import React from 'react'
+import Pic from '../assets/Pic.jpg'
 
 function MC() {
   return (
@@ -22,7 +23,7 @@ function MC() {
       ▲ Used Tensorflow fingerpose backend and React JS for frontend 
       </div>
     </div>
-    <img className = 'h-[20rem] w-[23rem] rounded-md m-20'/>
+    <img src = {Pic} className = 'h-[20rem] w-[23rem] rounded-md m-20'/>
     </div>
   )
 }

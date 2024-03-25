@@ -7,10 +7,10 @@ function AR() {
       <div className = 'flex flex-col justify-center'>
       <div className = 'flex'>
         <div className = 'font-semibold text-2xl'>
-            STEMeD Founder (STEM Outreach)
+          Founder (STEM Outreach)
         </div>
         <div className = 'mx-5 font-semibold text-2xl text-red-400'>
-        @ HackThe6ix
+        @ STEMeD
         </div>
       </div>
       <div>
